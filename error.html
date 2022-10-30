@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script>jQuery.ajaxPrefilter(function(options) {
+    if (options.crossDomain && jQuery.support.cors) {
+        options.url = 'https://cors-anywhere.herokuapp.com/' + options.url;
+    }
+});
+</script>
+<title>HIES Menu</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<style>
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+.menu {display: none}
+/* a, .menu, h2 {
+  visibility: hidden;
+}
+*/
+.bgimg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("/w3images/pizza.jpg");
+  min-height: 90%;;
+}
+.l{
+  text-align: center;
+}
+.error, h1 {
+    font-size: 60px;
+    text-align: center;
+    font-weight: 900;
+}
+.error, h4 {
+    font-size: 90px;
+}
+.button {
+        background-color: #cc2c2c;
+        border: none;
+        color: white;
+        margin-bottom: 20px;
+        padding: 30px 34px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 45px;
+        margin: 4px 2px;
+        cursor: pointer;
+        text-align: center;
+      }
+</style>
+</head>
+<body>
+<!-- Menu Container -->
+<div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="menu">
+  <div class="w3-content">
+  
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:-10px">THE HIES LUNCH MENU</h1>
+<h1 class="w3-center w3-jumbo" style="margin-bottom:-10px"><div id="weekend"></div></h1>
+    <h2 class="w3-center w3-xlarge" style="margin-bottom:-10px">Made by Jack Underwood</h2>
+    <h2 class="w3-center w3-xxlarge" style="margin-bottom:-10px; font-style: italic;"><div class="jackiscool"></div></h2>
+    <h2 class="w3-center w3-xxxlarge" style="margin-bottom:0px"><div class="specialtitle"></div></h2>
+    <h2 class="w3-center w3-jum" style="margin-bottom:64px"><div class="special"></div></h2>
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:-10px"></h1>
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:-10px"></h1>
+    <!-- <div class="l"><h3><a href="https://cors-anywhere.herokuapp.com/" style="text-align: center" style="margin: bottom -20px;" title="W3.CSS" target="_blank" class="w3-hover-text-green">If it's not loading click me</a></h3></div> -->
+  
+<div class="error"><h4>SORRY AN ERROR OCCOURD!</h4><h1>In order for HIES MENU TO WORK YOU NEED TO <a href="https://cors-anywhere.herokuapp.com/">VIST THIS SITE</a> then you need to press
+    "Request temporary access to the demo server" </h1> </div>
+ <h1><a href="https://food.jackunderwood.org/" class="button">Click Here when done</a></h1>
+    <div id="Pizza" class="w3-container menu w3-padding-32 w3-white">
+      
+      <h1><b><div class="main0"></div></b></h1>
+      <p class="w3-text-grey"><div class="maining0"></div></p>
+      <hr>
+   
+      <h1><b><div class="main1"></div></b></h1>
+      <p class="w3-text-grey"><div class="maining1"></div></p>
+      <hr>
+      
+      <h1><b><div class="main2"></div></b></h1>
+      <p class="w3-text-grey"><div class="maining2"></div></p>
+      <hr>
+
+      <h1><b><div class="main3"></div></b></h1>
+      <p class="w3-text-grey"><div class="maining3"></div></p>
+      <hr>
+    </div>
+
+    <!--SIDES-->
+
+    <div id="Pasta" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b><div class="side0"></div></b></h1>
+      <p class="w3-text-grey"><div class="sideing0"></div></p>
+      <hr>
+    
+      <h1><b><div class="side1"></div></b></h1>
+      <p class="w3-text-grey"><div class="sideing1"></div></p>
+      <hr>
+      
+      <h1><b><div class="side2"></div></b></h1>
+      <p class="w3-text-grey"><div class="sideing2"></div></p>
+      <hr>
+    
+      <h1><b><div class="side3"></div></b></h1>
+      <p class="w3-text-grey"><div class="sideing3"></div></p>
+      <hr>
+      
+      <h1><b><div class="side4"></div></b></h1>
+      <p class="w3-text-grey"><div class="sideing4"></div></p>
+      <hr>
+      
+      <h1><b><div class="side5"></div></b></h1>
+      <p class="w3-text-grey"><div class="sideing5"></div></p>
+      <hr>
+      
+      <h1><b><div class="side6"></div></b></h1>
+      <p class="w3-text-grey"><div class="sideing6"></div></p>
+      <hr>
+      
+      <h1><b><div class="side7"></div></b></h1>
+      <p class="w3-text-grey"><div class="sideing7"></div></p>
+      <hr>
+      
+      <h1><b><div class="side8"></div></b></h1>
+      <p class="w3-text-grey"><div class="sideing8"></div></p>
+      <hr>
+      
+      <h1><b><div class="side9"></div></b></h1>
+      <p class="w3-text-grey"><div class="sideing9"></div></p>
+      <hr>
+      
+    </div>
+
+ <!--DELI AND SOUP -->
+
+ <div id="Starter" class="w3-container menu w3-padding-32 w3-white">
+  <h1><b><div class="soup0"></div></b></h1>
+  <p class="w3-text-grey"><div class="souping0"></div></p>
+  <hr>
+
+  <h1><b><div class="soup1"></div></b></h1>
+  <p class="w3-text-grey"><div class="souping1"></div></p>
+  <hr>
+  
+  <h1><b><div class="deli0"></div></b></h1>
+  <p class="w3-text-grey"><div class="deliing0"></div></p>
+  <hr>
+
+  <h1><b><div class="deli1"></div></b></h1>
+  <p class="w3-text-grey"><div class="deliing1"></div></p>
+  <hr>
+  
+  <h1><b><div class="deli2"></div></b></h1>
+  <p class="w3-text-grey"><div class="deliing2"></div></p>
+  <hr>
+  
+  <h1><b><div class="deli3"></div></b></h1>
+  <p class="w3-text-grey"><div class="deliing3"></div></p>
+  <hr>
+  
+  <h1><b><div class="deli4"></div></b></h1>
+  <p class="w3-text-grey"><div class="deliing4"></div></p>
+  <hr>
+  
+</div>
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-48 w3-xxlarge">
+   <a href="https://vote.jackunderwood.org/" title="Learn About His Amazing Ideas" target="_blank" class="w3-hover-text-green">Coded by Jack Underwood</a></p>
+    <a href="https://vote.jackunderwood.org/" style="margin: bottom -0x;" title="Learn About His Amazing Ideas" target="_blank" class="w3-hover-text-green">Learn more about his ideas</a></p>
+</footer>
+</body>
+</html>
